@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product Id="1">
+    <ProductId>1</ProductId>
+    <ProductName>Visual Studio 2017 development pack</ProductName>
+    <ProductCost>100.00</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="2">
+    <ProductId>2</ProductId>
+    <ProductName>Visual Studio 2015 development pack</ProductName>
+    <ProductCost>120.50</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>21</Quantity>
+  </Product>
+  <Product Id="3">
+    <ProductId>3</ProductId>
+    <ProductName>Dell inspiron i5</ProductName>
+    <ProductCost>175.00</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="4">
+    <ProductId>4</ProductId>
+    <ProductName>Dell washroaw</ProductName>
+    <ProductCost>110.50</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="5">
+    <ProductId>5</ProductId>
+    <ProductName>Product 5</ProductName>
+    <ProductCost>100.00</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="6">
+    <ProductId>6</ProductId>
+    <ProductName>Product 6</ProductName>
+    <ProductCost>100.50</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="7">
+    <ProductId>7</ProductId>
+    <ProductName>Porduct 7</ProductName>
+    <ProductCost>100.20</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="8">
+    <ProductId>8</ProductId>
+    <ProductName>Product 8</ProductName>
+    <ProductCost>100.00</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="9">
+    <ProductId>9</ProductId>
+    <ProductName>Product 9</ProductName>
+    <ProductCost>100.00</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+  <Product Id="10">
+    <ProductId>10</ProductId>
+    <ProductName>Poruduct 10</ProductName>
+    <ProductCost>100.00</ProductCost>
+    <ProductImage>../ProductImages/Prod_1_image1.jpg</ProductImage>
+    <Quantity>25</Quantity>
+  </Product>
+</Products>

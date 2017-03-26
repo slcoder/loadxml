@@ -1,0 +1,26 @@
+﻿@model WebApplication2.Models.ViewModels.ProductViewModel
+@{
+    ViewBag.Title = "ProductDetails";
+}
+
+<h2>@ViewBag.PageTitle</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <div>
+            Product Id: @Model.ProductId
+        </div>
+        <div>
+            Product Name: @Model.ProductName
+        </div>
+        <div>
+            Product Cost: @Model.ProductCost
+        </div>
+        <div>
+            Quantity in hand: @Model.Quantity
+        </div>
+        <div>
+            <img src="../@Model.ProductImage" width="250px" height="150px" />
+        </div>
+    </div>
+</div>
