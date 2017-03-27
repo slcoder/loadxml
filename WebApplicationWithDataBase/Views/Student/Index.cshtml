@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ProductModel.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+
+        <div class="col-md-4">
+            <div>Product Id : @item.ProductId</div>
+            <h4>@Html.ActionLink(item.ProductName, "ProductDetails", new { Id = item.ProductId })</h4>
+
+            <div>
+                <img src="@item.ProductImageFullUrl" width="250px" height="150px" />
+            </div>
+            <div class="label-price">
+                $@item.ProductCost
+                <span class="more-info">@Html.ActionLink("More info", "GetProductDetails", new { Id = item.ProductId })</span>
+            </div>
+            <hr />
+        </div>
+    }
+</div>

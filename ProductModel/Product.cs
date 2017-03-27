@@ -16,6 +16,8 @@ namespace ProductModel
 
         public decimal ProductCost { get; set; }
 
+        public string ProductImageFullUrl { get; set; }
+
         public byte ProductImage { get; set; }
 
         public string ProductImagePath { get; set; }

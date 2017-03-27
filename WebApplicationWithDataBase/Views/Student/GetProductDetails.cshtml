@@ -1,0 +1,74 @@
+﻿@model ProductModel.Product
+
+@{
+    ViewBag.Title = "GetProductDetails";
+}
+
+<h2>GetProductDetails</h2>
+
+<div>
+    <h4>Product</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImageFullUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductImageFullUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImagePath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductImagePath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImageName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductImageName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
